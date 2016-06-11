@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+#banner{width:120%;height:100px;background:gray;margin-top:-10px;}
+#banner #logo {height:100px;width:200px;float:left;margin-left:80px;}
+#banner #title{float:left;width:400px;color:blue;text-shadow:3px 3px 10px white;}
+#banner #title2{float:left;font-size:18px;}
+
+#wrap{width:1200px;margin:0 auto;min-height:800px;border:1px solid red;}
+#nav{width:100%;height:30px;}
+#leftmenu{float:left;width:250px;}
+#content{float:left;width:940px;margin-left:5px;background:rgb(255,255,204);}
+#footer{width:100%;height:100px;background:gray;clear:both;}
+#userpic{width:150px;height:200px;border:2px solid gray;overflow:hidden;}
+#profile_picture{float:left;border-right:2px dotted grey;}
+#personal_info{float:left;}
+#resetme{clear:both;margin:auto;}
+a#addnew{border:3px solid grey;background:rgb(204,204,153);padding:3px 5px;margin-top:10px;border-radius:5px;}	
+/* sign in page */
+#logg{width:400px;margin:50px auto;border:3px solid grey;border-radius:15px;padding:25px;}
+#logg h3{width:100%;background:rgb(153,204,102);}
+a.btn{border:1px solid pruple;margin-right:10px;background:rgb(0,102,255);text-transform:uppercase;color:white;cursor:pointer;text-decoration:none;}
+a.btn:hover{text-decoration:none;box-shadow:3px 5px 10px gray;cursor:pointer;}
+.formaction{margin:0 auto;}
+#info{background:rgb(0,255,102);width:100%;clear:both;padding-left:20px;font-weight:bolder;}
+#articleadd{width:600px;margin-left:20px;}
+#txtbox{width:250px;height:25px;border:1px solid rgb(102,0,102);font-size:0.9em;}
+#txtaea{width:250px;height:50px;border:1px solid rgb(102,0,102);padding-left:0px;text-align:left;}
+#sele{width:250px;height:25px;text-align:left;}
+/*Home Notification */
+#homenoti{
+	width:200px;
+	height:150px;
+	float:left;
+	margin-right:10px;
+	background:pink;
+}
+#homenoti > #title
+{
+	width:100%;
+	background:gray;
+	height:25px;
+}
+#homenoti > h2
+{
+	width:100px;
+	height:100px;
+	border-radius:50px;
+	background:#CCCCCC;
+	text-align:center;
+	vertical-align:central;
+	color:white;
+}
+#homenoti > #footer
+{
+	width:100%;
+	height:25px;
+}
+/* Article Manager */
+.article_box{
+	width:150px;
+	float:left;
+	margin:10px;
+}
+.article_box img
+{
+	width:100%;
+	height:100px;
+	border:2px solid black;
+	cursor:pointer;
+}
+.article_box  a
+{
+	width:100%;
+	height:50px;
+	text-align:center;
+	text-decoration:none;
+}
+.article_box .action
+{
+	width:100%;
+	height:50px;
+	text-align:center;
+	font-size: small;
+}
+#tooltip{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	display:none;
+	}
+#imagePreview {
+    width: 180px;
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    display: inline-block;
+}
+/* paging */
+/*Paging STart */
+	ul.pagination li.details{
+	   color:#AD2D2D;
+	}
+    
+    ul.pagination li a
+	{
+		border:solid 1px;
+		border-radius:3px;	
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		padding:6px 9px 6px 9px;
+	}
+	
+	ul.pagination li
+	{
+		padding-bottom:1px;
+	}
+	
+	ul.pagination li a:hover,
+	ul.pagination li a.current
+	{	
+		color:#FFFFFF;
+		box-shadow:0px 1px #EDEDED;
+		-moz-box-shadow:0px 1px #EDEDED;
+		-webkit-box-shadow:0px 1px #EDEDED;
+	}
+    
+	ul.pagination li a
+	{
+		color:#E92F2F;
+		border-color:#FFA5A5;
+		background:#FFF8F8;
+	}	
+	
+	ul.pagination li a:hover,
+	ul.pagination li a.current
+	{
+		text-shadow:0px 1px #B72E2E;
+		border-color:#AD2D2D;
+		background:#E43838;
+		background:-moz-linear-gradient(top,#FF9B9B 1px,#FE5555 1px,#E43838);
+		background:-webkit-gradient(linear,0 0,0 100%,color-stop(0.02,#FF9B9B),color-stop(0.02,#FE5555),color-stop(1,#E43838));
+	}    
+	ul.pagination{
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	font:12px 'Tahoma';
+	list-style-type:none;	
+}
+
+ul.pagination li.details{
+    padding:7px 10px 7px 10px;
+    font-size:14px;
+}
+
+ul.pagination li.dot{padding: 3px 0;}
+
+ul.pagination li{
+	float:left;
+	margin:0px;
+	padding:0px;
+	margin-left:5px;
+}
+
+ul.pagination li:first-child{
+	margin-left:0px;
+}
+
+ul.pagination li a{
+	color:black;
+	display:block;
+	text-decoration:none;
+	padding:7px 10px 7px 10px;
+}
+
+ul.pagination li a img{
+	border:none;
+}
+/* end paging */
+.error
+{
+	color:red;
+}
+
+/*time*/
+.time {
+	color:#750075;
+	background:grey;
+}
+/*time end*/
